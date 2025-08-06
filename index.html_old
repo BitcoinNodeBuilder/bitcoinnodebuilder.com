@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn to Build Your Own Bitcoin Full Node with Bitcoin Node Builder">
+  <title>Bitcoin Node Builder</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+    }
+    header {
+      background-color: #161b22;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      color: #f0f6fc;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      color: #8b949e;
+      font-size: 1.2rem;
+    }
+    .cta {
+      margin-top: 1rem;
+    }
+    .cta button {
+      background-color: #f97316;
+      border: none;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      margin: 0.5rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      background-color: #161b22;
+    }
+    nav a {
+      color: #58a6ff;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #f0f6fc;
+      border-bottom: 2px solid #30363d;
+      padding-bottom: 0.5rem;
+    }
+    .node-builds {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+    .node {
+      background-color: #161b22;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      margin: 1rem;
+      width: 300px;
+      text-align: center;
+    }
+    .node img {
+      max-width: 100px;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BITCOIN NODE BUILDER</h1>
+    <p>Learn to Build Your Own Bitcoin Full Node</p>
+    <div class="cta">
+      <button>Watch Intro Video</button>
+      <button>Get the Starter Guide</button>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#tutorials">Video Tutorials</a>
+    <a href="#hardware">Hardware & Tools</a>
+    <a href="#nodes">My Node Builds</a>
+  </nav>
+
+  <section id="nodes">
+    <h2>My Node Builds</h2>
+    <div class="node-builds">
+      <div class="node">
+        <img src="my_iron_pig.png" alt="My Iron Pig logo">
+        <h3>My Iron Pig</h3>
+        <p>A nod to saving: This Umbrel-powered Raspberry Pi 5 node references both a piggy bank and the Radiohead song "My Iron Lung." It's optimized for Lightning Network and uptime.</p>
+      </div>
+      <div class="node">
+        <img src="the_coffee_can_transparent.png" alt="The Coffee Can logo">
+        <h3>The Coffee Can</h3>
+        <p>Inspired by long-term investing philosophy, this Raspibolt node is built for stability, privacy, and minimal maintenance — tucked away like a Bitcoin time capsule.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Bitcoin Node Builder, LLC. All rights reserved.
+  </footer>
+</body>
+</html>
