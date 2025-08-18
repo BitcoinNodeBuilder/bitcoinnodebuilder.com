@@ -1,0 +1,8 @@
+{
+  "site_name": "Bitcoin Node Builder",
+  "tagline": "DIY guides for building robust Bitcoin full nodes.",
+  "substack_url": "https://bitcoinnodebuilder.substack.com",
+  "btcpay_pos_url": "https://YOUR_BTCPAY_SERVER/apps/YOUR_APP_ID/pos",
+  "btcpay_server_url": "https://YOUR_BTCPAY_SERVER",
+  "btcpay_store_id": "AMPBhdJ4ye3R8cReqmsf4rDRGK3BR6FA2QynE2gN7yWT"
+}
